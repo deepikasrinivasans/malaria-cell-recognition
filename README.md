@@ -1,16 +1,11 @@
 # EX 4 Deep Neural Network for Malaria Infected Cell Recognition
 
 ## AIM
-
 To develop a deep neural network for Malaria infected cell recognition and to analyze the performance.
-
 ## Problem Statement and Dataset
 To develop a deep neural network model to classify microscopic cell images as either malaria-infected or uninfected. This is essential for aiding in the rapid and accurate diagnosis of malaria. The dataset includes a structured directory with images of both infected and uninfected cells. To enhance model accuracy, various techniques like hyperparameter tuning, model architecture adjustments, or transfer learning can be applied. Using an ImageDataGenerator, image data is loaded from the dataset directory, with configurations for data augmentation. The model's effectiveness is evaluated through metrics, a confusion matrix, and a plot of training vs. validation loss over epochs.
-
 ## Neural Network Model
-
-Include the neural network model diagram.
-
+![malaria img](https://github.com/user-attachments/assets/0334d20a-dcaf-4512-88fc-74a789469a46)
 ## DESIGN STEPS
 
 ### STEP 1: Import Libraries: Load necessary libraries for data processing, visualization, and building the neural network.
@@ -193,9 +188,9 @@ print(confusion_matrix(test_image_gen.classes,predictions))
 print('DEEPIKA S 212222230028')
 
 ```
-## OUTPUT
+### OUTPUT
 ### Training Loss, Validation Loss Vs Iteration Plot
-![WhatsApp Image 2024-11-11 at 18 20 40](https://github.com/user-attachments/assets/1e793f0e-2898-4147-8001-16896f6aa17b)
+![image](https://github.com/user-attachments/assets/f1f28a36-931e-4c65-b48d-0a709ac847dc)
 ### Classification Report
 ![image1](https://github.com/user-attachments/assets/63d74fd8-afe9-4450-97a9-530464d513f2)
 ### Confusion Matrix
