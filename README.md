@@ -4,8 +4,7 @@
 To develop a deep neural network for Malaria infected cell recognition and to analyze the performance.
 ## Problem Statement and Dataset
 To develop a deep neural network model to classify microscopic cell images as either malaria-infected or uninfected. This is essential for aiding in the rapid and accurate diagnosis of malaria. The dataset includes a structured directory with images of both infected and uninfected cells. To enhance model accuracy, various techniques like hyperparameter tuning, model architecture adjustments, or transfer learning can be applied. Using an ImageDataGenerator, image data is loaded from the dataset directory, with configurations for data augmentation. The model's effectiveness is evaluated through metrics, a confusion matrix, and a plot of training vs. validation loss over epochs.
-## Neural Network Model
-![malaria img](https://github.com/user-attachments/assets/0334d20a-dcaf-4512-88fc-74a789469a46)
+## Neural Network Model)
 ![image](https://github.com/user-attachments/assets/6dfe1dbf-7cad-477a-80ce-1ac23d5a3701)
 
 ## DESIGN STEPS
